@@ -19,7 +19,7 @@ async function main() {
     }
 
   }
-document.getElementById("views").innerHTML = Object.keys(jsonData).length + " megtekintés, " + Math.round(viewtime / 60) + "perc olvasási idő (JSON alapján)";
+document.getElementById("views").innerHTML = Object.keys(jsonData).length + " megtekintés, " + Math.round(viewtime / 60) + "perc olvasási idő";
 console.log(viewsForEachPage)
 console.log(Object.keys(viewsForEachPage))
 var viewsArray = []
@@ -47,7 +47,7 @@ new Chart(ctx, {
       borderWidth: 1,
     },
     {
-      label: 'Olvasási idő, JSON alapján',
+      label: 'Olvasási idő, jelentések alapján alapján',
       data: labels2Array,
       borderWidth: 1,
       yAxisID: 'y1'
