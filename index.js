@@ -47,7 +47,7 @@ new Chart(ctx, {
       borderWidth: 1,
     },
     {
-      label: 'Olvasási idő, jelentések alapján alapján',
+      label: 'Olvasási idő, jelentések alapján',
       data: labels2Array,
       borderWidth: 1,
       yAxisID: 'y1'
